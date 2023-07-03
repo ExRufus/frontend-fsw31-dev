@@ -37,12 +37,13 @@ export default function About() {
           </div >
           <h2 className="col-md-12 text-center" style={{color:'white'}}>Our Team</h2>
           <hr style={{backgroundColor:'white', height:'2px'}}></hr>
-          <CardAbout Name="Adyan Akmal" Job="DPR (Dewan Permohonan Resign)" description="pengangguran adalah seorang yang tidak bekerja yang selalu main game mulu" image={member1}/>
+          <CardAbout Name="Akmal Dayan" Job="DPR (Dewan Permohonan Resign)" description="pengangguran adalah seorang yang tidak bekerja yang selalu main game mulu" image={member1}/>
           <CardAbout Name="Fauzan Abdul Basith" Job="Polisi Pulang Pergi" description="pengangguran adalah seorang yang tidak bekerja yang selalu main game mulu" image={member3}/>
           <CardAbout Name="Adan Perdana" Job="Kang Narik Kabel di Laut" description="pengangguran adalah seorang yang tidak bekerja yang selalu main game mulu" image={member2}/>
           <CardAbout Name="Amjad Muhammad Ahsan" Job="Pendamping Karaoke" description="pengangguran adalah seorang yang tidak bekerja yang selalu main game mulu" image={member2}/>
           <CardAbout Name="Adli Rahadyan" Job="Kerja Dirumah Makan" description="pengangguran adalah seorang yang tidak bekerja yang selalu main game mulu" image={member3}/>
           <CardAbout Name="Ares Mardiana" Job="Kang Madu Baduy" description="pengangguran adalah seorang yang tidak bekerja yang selalu main game mulu" image={member1}/>
+          <CardAbout Name="Salman" Job="Kang Madu Baduy" description="pengangguran adalah seorang yang tidak bekerja yang selalu main game mulu" image={member1}/>
         </div>
       </div>
     </section>

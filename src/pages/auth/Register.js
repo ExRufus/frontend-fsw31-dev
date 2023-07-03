@@ -36,6 +36,7 @@ export default function Register() {
       setLoading(true);
       const response = await api.post("/players", payload);
       successToast(response.data.messages);
+      navigate('/auth/login');
     } catch (error) {
       errorToast(error);
     } finally {
